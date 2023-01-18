@@ -17,6 +17,7 @@
 		3A2A7C2021E784760083CB13 /* resize-arrows.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2A7C1F21E784760083CB13 /* resize-arrows.png */; };
 		9675E1FC20855F6500A4A84A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9675E1FB20855F6500A4A84A /* Foundation.framework */; };
 		9675E1FF20857AEF00A4A84A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9675E1FE20857AEF00A4A84A /* UIKit.framework */; };
+		A18BD0D329787BD00054E225 /* WebCoreNSURLSessionTaskTransactionMetrics+AddPrivacyStance.m in Sources */ = {isa = PBXBuildFile; fileRef = A18BD0D229787BD00054E225 /* WebCoreNSURLSessionTaskTransactionMetrics+AddPrivacyStance.m */; };
 		B002B8671BAE420500C744AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B002B8661BAE420500C744AF /* main.m */; };
 		B002B86A1BAE420500C744AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B002B8691BAE420500C744AF /* AppDelegate.m */; };
 		B002B86D1BAE420500C744AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B002B86C1BAE420500C744AF /* ViewController.m */; };
@@ -35,6 +36,7 @@
 		3A2A7C1F21E784760083CB13 /* resize-arrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "resize-arrows.png"; sourceTree = "<group>"; };
 		9675E1FB20855F6500A4A84A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9675E1FE20857AEF00A4A84A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A18BD0D229787BD00054E225 /* WebCoreNSURLSessionTaskTransactionMetrics+AddPrivacyStance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WebCoreNSURLSessionTaskTransactionMetrics+AddPrivacyStance.m"; sourceTree = "<group>"; };
 		B002B8621BAE420500C744AF /* Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Browser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B002B8661BAE420500C744AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B002B8681BAE420500C744AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		B002B8641BAE420500C744AF /* Browser */ = {
 			isa = PBXGroup;
 			children = (
+				A18BD0D229787BD00054E225 /* WebCoreNSURLSessionTaskTransactionMetrics+AddPrivacyStance.m */,
 				B002B8681BAE420500C744AF /* AppDelegate.h */,
 				B002B8691BAE420500C744AF /* AppDelegate.m */,
 				B002B86B1BAE420500C744AF /* ViewController.h */,
@@ -225,6 +228,7 @@
 			files = (
 				B002B86D1BAE420500C744AF /* ViewController.m in Sources */,
 				B002B86A1BAE420500C744AF /* AppDelegate.m in Sources */,
+				A18BD0D329787BD00054E225 /* WebCoreNSURLSessionTaskTransactionMetrics+AddPrivacyStance.m in Sources */,
 				B002B8671BAE420500C744AF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
