@@ -13,7 +13,6 @@
 #import <objc/runtime.h>
 #import <Foundation/Foundation.h>
 
-
 int privacyStanceGetter(id self, SEL _cmd) {
     return 0;
 }
@@ -29,9 +28,7 @@ int privacyStanceGetter(id self, SEL _cmd) {
         if (class_getInstanceMethod(class, NSSelectorFromString(@"_privacyStance")) != nil) {
             return;
         }
-        
-        objc_property_attribute_t attrs[] = { };
-        class_addProperty(class, "privacyStance", attrs, 0);
+
         class_addMethod(class, NSSelectorFromString(@"_privacyStance"), (IMP)privacyStanceGetter, "@@:");
     });
 }
