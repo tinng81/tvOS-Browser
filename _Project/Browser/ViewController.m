@@ -300,7 +300,7 @@ static UIImage *kPointerCursor() {
                                           [self showHintsAlert];
                                       }];
     UIAlertAction *cancelAction = [UIAlertAction
-                                   actionWithTitle:nil
+                                   actionWithTitle:@"Cancel"
                                    style:UIAlertActionStyleCancel
                                    handler:nil];
     UIAlertAction *viewFavoritesAction = [UIAlertAction
@@ -747,7 +747,7 @@ static UIImage *kPointerCursor() {
                                    }];
     
     UIAlertAction *cancelAction = [UIAlertAction
-                                   actionWithTitle:nil
+                                   actionWithTitle:@"Cancel"
                                    style:UIAlertActionStyleCancel
                                    handler:nil];
     
@@ -810,7 +810,7 @@ static UIImage *kPointerCursor() {
     
     
     UIAlertAction *cancelAction = [UIAlertAction
-                                   actionWithTitle:nil
+                                   actionWithTitle:@"Cancel"
                                    style:UIAlertActionStyleCancel
                                    handler:nil];
     
@@ -933,7 +933,7 @@ static UIImage *kPointerCursor() {
                                            [self requestURLorSearchInput];
                                        }];
         UIAlertAction *cancelAction = [UIAlertAction
-                                       actionWithTitle:nil
+                                       actionWithTitle:@"Cancel"
                                        style:UIAlertActionStyleCancel
                                        handler:nil];
         if (self.requestURL != nil) {
@@ -1273,7 +1273,7 @@ static UIImage *kPointerCursor() {
                                                   [self.webview stringByEvaluatingJavaScriptFromString:javaScript];
                                               }];
                 UIAlertAction *cancelAction = [UIAlertAction
-                                               actionWithTitle:nil
+                                               actionWithTitle:@"Cancel"
                                                style:UIAlertActionStyleCancel
                                                handler:nil];
                 [alertController addAction:inputAction];
