@@ -1,4 +1,5 @@
-tvOS Browser
+tvOS Browser:
+Web browser for AppleTV
 =============
 
 ![Alt text](/screen01.jpg?raw=true "tvOS Browser on AppleTV")
@@ -14,8 +15,18 @@ The private UIWebView is now initialized using NSClassFromString(@"UIWebView"), 
 How to Install tvOS Browser
 =============
 
-To install this app, connect your Apple TV to your macOS computer via USB. Open this project in XCode and install to your Apple TV.
+To install this app, connect your Apple TV to your macOS computer via USB. Open this project in XCode, and first do the following:
+Set the proper deployment target, and change the Bundle Identifier to your own identifier:
+
+![Alt text](/readme_instruction_01.png?raw=true "Change bundle ID to your own")
+
+Next, remember to change to your own Team in Signing & Capabilities:
+![Alt text](/readme_instruction_02.png?raw=true "Change Team setting")
+
+Then Run the project, with your AppleTV as target device.
 If your Apple TV does not have a USB-C port or you don't have a cable, connect to your Apple TV wirelessly: http://www.redmondpie.com/how-to-wirelessly-connect-apple-tv-4k-to-xcode-on-mac/.
+
+
 
 How to Use tvOSBrowser
 =============
@@ -26,9 +37,9 @@ Quick start:
 - Single tap the Play/Pause button to show the Quick Menu, with: input URLs, search Google, reload the page, or navigate back.
 - Double tap the Play/Pause button to: display the Advanced Menu, with: Favorites, History, set/open homepage, change user agent, clear cache, and clear cookies and more.
 - Single tap the Menu button to "go back" (like the back button in a traditional browser)
-- Single tap the TV button (to the rigtht of the Menu button) to exit
+- Single tap the TV button (to the right of the Menu button) to exit
 
-The Avanced menu lets you:
+The Advanced menu lets you:
 - Show and hide the top navigation bar
 - Manage Favorites
 - Manage History
@@ -39,5 +50,5 @@ The Avanced menu lets you:
 - Enable/Disable WebView offset correction
 - Increase/decrease font size
 - Clear cache
-- Cleare cookies
+- Clear cookies
 - Show the usage guide
