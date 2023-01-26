@@ -933,7 +933,7 @@ static UIImage *kPointerCursor() {
                                            [self requestURLorSearchInput];
                                        }];
         UIAlertAction *cancelAction = [UIAlertAction
-                                       actionWithTitle:@"Cancel"
+                                       actionWithTitle:@"Dismiss"
                                        style:UIAlertActionStyleCancel
                                        handler:nil];
         if (self.requestURL != nil) {
